@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saborê | Sabor que transforma momentos</title>
+  <meta name="description" content="Restaurante Saborê - Uma experiência gastronômica feita para você. Pratos artesanais, massas e sobremesas em um ambiente acolhedor.">
+  
+  <!-- Fontes do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icones FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Estilos Customizados -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header / Navegação -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <i class="fa-solid font-awesome-utensils fa-utensils"></i> Saborê
+      </a>
+      
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+          <li><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu de navegação">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content fade-in">
+        <span class="hero-tag">Restaurante & Gastronomia</span>
+        <h1 class="hero-title">Sabor que transforma momentos.</h1>
+        <p class="hero-subtitle">Uma experiência gastronômica feita para você.</p>
+        <div class="hero-buttons">
+          <a href="sobre.html" class="btn btn-primary">
+            Conheça nosso restaurante <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="contato.html" class="btn btn-secondary">
+            Fale conosco
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper fade-in">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1000&auto=format&fit=crop" alt="Prato especial do Restaurante Saborê">
+        <div class="hero-badge">
+          <div class="hero-badge-icon">
+            <i class="fa-solid fa-star" style="color: var(--gold-accent);"></i>
+          </div>
+          <div class="hero-badge-text">
+            <strong>Gastronomia Artesanal</strong>
+            <span>Ingredientes frescos & selecionados</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Destaque / Apresentação -->
+  <section class="highlight-section section-padding">
+    <div class="container highlight-grid">
+      <div class="highlight-img-container fade-in">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1000&auto=format&fit=crop" alt="Chef preparando prato no Saborê">
+      </div>
+      <div class="highlight-text fade-in">
+        <h2>Paixão pela culinária e cuidado em cada detalhe</h2>
+        <p>No <strong>Saborê</strong>, acreditamos que comer bem é uma celebração diária. Nossa cozinha combina técnicas tradicionais com toques contemporâneos para criar pratos memoráveis.</p>
+        <p>Preparamos cada refeição com ingredientes rigorosamente selecionados, trazendo o verdadeiro frescor e aroma para a sua mesa em um espaço feito para você relaxar e aproveitar.</p>
+        <a href="sobre.html" class="btn btn-secondary" style="margin-top: 0.5rem;">
+          Saiba mais sobre nós
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Nossos Destaques -->
+  <section class="cards-section section-padding">
+    <div class="container">
+      <h2 class="section-title fade-in">Nossos Destaques</h2>
+      <p class="section-subtitle fade-in">Confira algumas das especialidades mais amadas do nosso cardápio.</p>
+
+      <div class="cards-grid">
+        
+        <!-- Card 1: Hambúrguer artesanal -->
+        <article class="card fade-in">
+          <div class="card-img-wrapper">
+            <span class="card-badge">Artesanal</span>
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop" alt="Hambúrguer artesanal Saborê">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Hambúrguer artesanal</h3>
+            <p class="card-description">Blend suculento de carnes nobres, queijo derretido, cebola caramelizada e molho especial em pão brioche assado na hora.</p>
+            <div class="card-footer">
+              <span class="card-price">R$ 38,90</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: Massa da casa -->
+        <article class="card fade-in">
+          <div class="card-img-wrapper">
+            <span class="card-badge">Especialidade</span>
+            <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop" alt="Macarrão italiano artesanal Saborê">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Massa da casa</h3>
+            <p class="card-description">Fettuccine fresco feito diariamente, servido com molho pomodoro rústico, manjericão fresco e lascas de queijo parmesão.</p>
+            <div class="card-footer">
+              <span class="card-price">R$ 46,00</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3: Sobremesa especial -->
+        <article class="card fade-in">
+          <div class="card-img-wrapper">
+            <span class="card-badge">Chef's Choice</span>
+            <img src="https://images.unsplash.com/photo-1579372786545-d24232daf58c?q=80&w=800&auto=format&fit=crop" alt="Sobremesa especial Saborê">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Sobremesa especial</h3>
+            <p class="card-description">Petit gâteau de chocolate meio amargo, acompanhado de sorvete artesanal de baunilha e calda morna de frutas vermelhas.</p>
+            <div class="card-footer">
+              <span class="card-price">R$ 24,90</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Final / CTA -->
+  <section class="cta-section">
+    <div class="container fade-in">
+      <h2 class="cta-title">Seu próximo momento especial começa aqui.</h2>
+      <a href="contato.html" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">
+        Fale conosco <i class="fa-solid fa-comments"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <i class="fa-solid fa-utensils"></i> Saborê
+          </a>
+          <p>Restaurante focado em proporcionar experiências gastronômicas inesquecíveis através do sabor e acolhimento.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Atendimento</h4>
+          <ul class="footer-links">
+            <li><span style="color: #999;">Ter - Dom: 18h às 23h30</span></li>
+            <li><a href="https://wa.me/5511999998888" target="_blank"><i class="fa-brands fa-whatsapp"></i> (11) 99999-8888</a></li>
+            <li><span style="color: #999;">Rua das Flores, 142 - SP</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Restaurante Saborê. Todos os direitos reservados. (Dados Fictícios)</p>
+        <p>Desenvolvido por <span class="zentrix-badge">Zentrix - Pacote Básico R$497</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante de WhatsApp -->
+  <a href="https://wa.me/5511999998888" class="whatsapp-float" target="_blank" aria-label="Fale no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Script JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

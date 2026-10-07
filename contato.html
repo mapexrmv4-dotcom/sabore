@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Restaurante Saborê</title>
+  <meta name="description" content="Fale com o Restaurante Saborê. Faça reservas, tires dúvidas ou envie sua mensagem via WhatsApp e formulário de contato.">
+  
+  <!-- Fontes do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icones FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Estilos Customizados -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header / Navegação -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-utensils"></i> Saborê
+      </a>
+      
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+          <li><a href="contato.html" class="nav-link active">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu de navegação">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Header da Página -->
+  <section class="page-header">
+    <div class="container">
+      <h1 class="fade-in">Entre em contato</h1>
+      <p class="section-subtitle fade-in" style="margin-bottom: 0;">Estamos prontos para atender você com carinho e rapidez.</p>
+    </div>
+  </section>
+
+  <!-- Seção Principal de Contato -->
+  <section class="section-padding">
+    <div class="container contato-grid">
+      
+      <!-- Formulário de Contato -->
+      <div class="contato-form-container fade-in">
+        <h2 style="font-size: 1.75rem; margin-bottom: 1.5rem;">Envie uma mensagem</h2>
+        
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" class="form-control" placeholder="Seu nome" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="form-control" placeholder="seuemail@exemplo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Telefone / WhatsApp</label>
+            <input type="tel" id="telefone" class="form-control" placeholder="(11) 99999-8888" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" class="form-control" placeholder="Como podemos ajudar você?" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">
+            Enviar mensagem <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+
+      <!-- Informações de Contato & Redes -->
+      <div class="contato-info-container fade-in">
+        
+        <!-- CTA WhatsApp Direto -->
+        <div class="info-card" style="background-color: #F0FDF4; border-color: #BBF7D0;">
+          <h3 style="color: #166534; border-color: #86EFAC;">Atendimento via WhatsApp</h3>
+          <p style="color: #15803D; font-size: 0.95rem; margin-bottom: 1.25rem;">
+            Prefere um atendimento imediato? Clique no botão abaixo para conversar conosco no WhatsApp.
+          </p>
+          <a href="https://wa.me/5511999998888" target="_blank" class="btn btn-whatsapp btn-block">
+            <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Falar no WhatsApp
+          </a>
+        </div>
+
+        <!-- Dados Fictícios de Contato -->
+        <div class="info-card">
+          <h3>Informações do Restaurante</h3>
+          
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="info-text">
+              <strong>Endereço</strong>
+              <span>Rua das Flores, 142 - Bairro Gourmet, São Paulo - SP</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div class="info-text">
+              <strong>Horário de Funcionamento</strong>
+              <span>Terça a Domingo: das 18h às 23h30<br>(Fechado às Segundas-feiras)</span>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="info-text">
+              <strong>E-mail Fictício</strong>
+              <span>contato@sabore-restaurante.com.br</span>
+            </div>
+          </div>
+
+          <div class="info-item" style="flex-direction: column; align-items: flex-start;">
+            <strong>Redes Sociais</strong>
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank" class="social-btn" aria-label="Instagram Fictício">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://facebook.com" target="_blank" class="social-btn" aria-label="Facebook Fictício">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://tripadvisor.com" target="_blank" class="social-btn" aria-label="TripAdvisor Fictício">
+                <i class="fa-solid fa-utensils"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Toast Notification -->
+  <div id="toast-notification" class="toast-notification">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span class="toast-message">Mensagem enviada com sucesso!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <i class="fa-solid fa-utensils"></i> Saborê
+          </a>
+          <p>Restaurante focado em proporcionar experiências gastronômicas inesquecíveis através do sabor e acolhimento.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Atendimento</h4>
+          <ul class="footer-links">
+            <li><span style="color: #999;">Ter - Dom: 18h às 23h30</span></li>
+            <li><a href="https://wa.me/5511999998888" target="_blank"><i class="fa-brands fa-whatsapp"></i> (11) 99999-8888</a></li>
+            <li><span style="color: #999;">Rua das Flores, 142 - SP</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Restaurante Saborê. Todos os direitos reservados. (Dados Fictícios)</p>
+        <p>Desenvolvido por <span class="zentrix-badge">Zentrix - Pacote Básico R$497</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante de WhatsApp -->
+  <a href="https://wa.me/5511999998888" class="whatsapp-float" target="_blank" aria-label="Fale no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Script JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
